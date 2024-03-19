@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C23D5ED2BA90D5B00573567 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23D5EC2BA90D5B00573567 /* EventView.swift */; };
+		2C23D5EF2BAA4C8200573567 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23D5EE2BAA4C8200573567 /* League.swift */; };
 		2C3129A92B98F75500F9B54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3129A82B98F75500F9B54E /* AppDelegate.swift */; };
-		2C3129AB2B98F75500F9B54E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3129AA2B98F75500F9B54E /* SceneDelegate.swift */; };
 		2C3129AD2B98F75500F9B54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3129AC2B98F75500F9B54E /* ViewController.swift */; };
-		2C3129B02B98F75500F9B54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3129AE2B98F75500F9B54E /* Main.storyboard */; };
 		2C3129B22B98F75800F9B54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3129B12B98F75800F9B54E /* Assets.xcassets */; };
 		2C3129B52B98F75800F9B54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3129B32B98F75800F9B54E /* LaunchScreen.storyboard */; };
+		2C3874222BA258690025166B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C3874212BA258690025166B /* SnapKit */; };
+		2C3874242BA258690025166B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2C3874232BA258690025166B /* SnapKit-Dynamic */; };
+		2C3874272BA258D80025166B /* SofaAcademic in Frameworks */ = {isa = PBXBuildFile; productRef = 2C3874262BA258D80025166B /* SofaAcademic */; };
+		2C3874302BA789820025166B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38742F2BA789820025166B /* Event.swift */; };
+		2C3874322BA78A540025166B /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3874312BA78A540025166B /* EventViewModel.swift */; };
+		2C3874342BA78D850025166B /* LeagueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3874332BA78D850025166B /* LeagueView.swift */; };
+		2C3874362BA790850025166B /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3874352BA790850025166B /* FontManager.swift */; };
+		2C3874382BA790C70025166B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3874372BA790C70025166B /* ColorManager.swift */; };
+		2C38743A2BA792450025166B /* LeagueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3874392BA792450025166B /* LeagueViewModel.swift */; };
+		2C3874412BA7AD960025166B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C38743D2BA7AD960025166B /* Roboto-Bold.ttf */; };
+		2C3874422BA7AD970025166B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C38743E2BA7AD960025166B /* Roboto-Regular.ttf */; };
+		2C3874432BA7AD970025166B /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C38743F2BA7AD960025166B /* RobotoCondensed-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C23D5EC2BA90D5B00573567 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		2C23D5EE2BAA4C8200573567 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
 		2C3129A52B98F75500F9B54E /* SofascoreAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofascoreAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3129A82B98F75500F9B54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3129AA2B98F75500F9B54E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C3129AC2B98F75500F9B54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C3129AF2B98F75500F9B54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3129B12B98F75800F9B54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3129B42B98F75800F9B54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3129B62B98F75800F9B54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C38742F2BA789820025166B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2C3874312BA78A540025166B /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		2C3874332BA78D850025166B /* LeagueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueView.swift; sourceTree = "<group>"; };
+		2C3874352BA790850025166B /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		2C3874372BA790C70025166B /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		2C3874392BA792450025166B /* LeagueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewModel.swift; sourceTree = "<group>"; };
+		2C38743D2BA7AD960025166B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2C38743E2BA7AD960025166B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2C38743F2BA7AD960025166B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		2C3874452BA7AD9A0025166B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2C3874462BA7AD9A0025166B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2C3874472BA7AD9A0025166B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3874222BA258690025166B /* SnapKit in Frameworks */,
+				2C3874272BA258D80025166B /* SofaAcademic in Frameworks */,
+				2C3874242BA258690025166B /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 		2C31299C2B98F75500F9B54E = {
 			isa = PBXGroup;
 			children = (
+				2C3874402BA7AD960025166B /* _Fonts (Mini Sofascore App) */,
 				2C3129A72B98F75500F9B54E /* SofascoreAcademy */,
 				2C3129A62B98F75500F9B54E /* Products */,
 			);
@@ -56,15 +84,91 @@
 		2C3129A72B98F75500F9B54E /* SofascoreAcademy */ = {
 			isa = PBXGroup;
 			children = (
+				2C38742E2BA286940025166B /* Resources */,
+				2C38742C2BA2867B0025166B /* Helpers */,
+				2C38742B2BA286630025166B /* Controllers */,
+				2C38742A2BA286550025166B /* Views */,
+				2C3874292BA286470025166B /* ViewModels */,
+				2C3874282BA286300025166B /* Models */,
 				2C3129A82B98F75500F9B54E /* AppDelegate.swift */,
-				2C3129AA2B98F75500F9B54E /* SceneDelegate.swift */,
-				2C3129AC2B98F75500F9B54E /* ViewController.swift */,
-				2C3129AE2B98F75500F9B54E /* Main.storyboard */,
-				2C3129B12B98F75800F9B54E /* Assets.xcassets */,
 				2C3129B32B98F75800F9B54E /* LaunchScreen.storyboard */,
+				2C3874442BA7AD9A0025166B /* _Fonts */,
 				2C3129B62B98F75800F9B54E /* Info.plist */,
 			);
 			path = SofascoreAcademy;
+			sourceTree = "<group>";
+		};
+		2C3874282BA286300025166B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C38742F2BA789820025166B /* Event.swift */,
+				2C23D5EE2BAA4C8200573567 /* League.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C3874292BA286470025166B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C3874312BA78A540025166B /* EventViewModel.swift */,
+				2C3874392BA792450025166B /* LeagueViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2C38742A2BA286550025166B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C3874332BA78D850025166B /* LeagueView.swift */,
+				2C23D5EC2BA90D5B00573567 /* EventView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C38742B2BA286630025166B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3129AC2B98F75500F9B54E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C38742C2BA2867B0025166B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3874352BA790850025166B /* FontManager.swift */,
+				2C3874372BA790C70025166B /* ColorManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C38742E2BA286940025166B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C3129B12B98F75800F9B54E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C3874402BA7AD960025166B /* _Fonts (Mini Sofascore App) */ = {
+			isa = PBXGroup;
+			children = (
+				2C38743D2BA7AD960025166B /* Roboto-Bold.ttf */,
+				2C38743E2BA7AD960025166B /* Roboto-Regular.ttf */,
+				2C38743F2BA7AD960025166B /* RobotoCondensed-Regular.ttf */,
+			);
+			name = "_Fonts (Mini Sofascore App)";
+			path = "../../../Downloads/_Fonts (Mini Sofascore App)";
+			sourceTree = "<group>";
+		};
+		2C3874442BA7AD9A0025166B /* _Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C3874462BA7AD9A0025166B /* Roboto-Bold.ttf */,
+				2C3874452BA7AD9A0025166B /* Roboto-Regular.ttf */,
+				2C3874472BA7AD9A0025166B /* RobotoCondensed-Regular.ttf */,
+			);
+			path = _Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +187,11 @@
 			dependencies = (
 			);
 			name = SofascoreAcademy;
+			packageProductDependencies = (
+				2C3874212BA258690025166B /* SnapKit */,
+				2C3874232BA258690025166B /* SnapKit-Dynamic */,
+				2C3874262BA258D80025166B /* SofaAcademic */,
+			);
 			productName = SofascoreAcademy;
 			productReference = 2C3129A52B98F75500F9B54E /* SofascoreAcademy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +220,10 @@
 				Base,
 			);
 			mainGroup = 2C31299C2B98F75500F9B54E;
+			packageReferences = (
+				2C3874202BA258690025166B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2C3874252BA258D80025166B /* XCRemoteSwiftPackageReference "academy" */,
+			);
 			productRefGroup = 2C3129A62B98F75500F9B54E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +240,9 @@
 			files = (
 				2C3129B52B98F75800F9B54E /* LaunchScreen.storyboard in Resources */,
 				2C3129B22B98F75800F9B54E /* Assets.xcassets in Resources */,
-				2C3129B02B98F75500F9B54E /* Main.storyboard in Resources */,
+				2C3874422BA7AD970025166B /* Roboto-Regular.ttf in Resources */,
+				2C3874432BA7AD970025166B /* RobotoCondensed-Regular.ttf in Resources */,
+				2C3874412BA7AD960025166B /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +253,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3874382BA790C70025166B /* ColorManager.swift in Sources */,
 				2C3129AD2B98F75500F9B54E /* ViewController.swift in Sources */,
+				2C3874322BA78A540025166B /* EventViewModel.swift in Sources */,
+				2C3874302BA789820025166B /* Event.swift in Sources */,
+				2C3874342BA78D850025166B /* LeagueView.swift in Sources */,
+				2C23D5ED2BA90D5B00573567 /* EventView.swift in Sources */,
+				2C3874362BA790850025166B /* FontManager.swift in Sources */,
 				2C3129A92B98F75500F9B54E /* AppDelegate.swift in Sources */,
-				2C3129AB2B98F75500F9B54E /* SceneDelegate.swift in Sources */,
+				2C23D5EF2BAA4C8200573567 /* League.swift in Sources */,
+				2C38743A2BA792450025166B /* LeagueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C3129AE2B98F75500F9B54E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C3129AF2B98F75500F9B54E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C3129B32B98F75800F9B54E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +410,6 @@
 				INFOPLIST_FILE = SofascoreAcademy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +436,6 @@
 				INFOPLIST_FILE = SofascoreAcademy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +473,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C3874202BA258690025166B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		2C3874252BA258D80025166B /* XCRemoteSwiftPackageReference "academy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sofascore/academy";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C3874212BA258690025166B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C3874202BA258690025166B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2C3874232BA258690025166B /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C3874202BA258690025166B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		2C3874262BA258D80025166B /* SofaAcademic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C3874252BA258D80025166B /* XCRemoteSwiftPackageReference "academy" */;
+			productName = SofaAcademic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C31299D2B98F75500F9B54E /* Project object */;
 }
